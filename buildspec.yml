@@ -3,6 +3,9 @@ phases:
   install:
     runtime-versions:
       python: 3.9
+    commands:
+      - echo "Instalando dependencias..."
+      - pip install -r app/requirements.txt
   build:
     commands:
       - echo "Ejecutando pruebas unitarias..."
