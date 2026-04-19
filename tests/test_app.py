@@ -1,6 +1,6 @@
 # tests/test_app.py
 import pytest
-from app.app import app
+from app import app  # <-- Solo quitamos un ".app"
 
 @pytest.fixture
 def client():
