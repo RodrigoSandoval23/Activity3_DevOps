@@ -17,4 +17,4 @@ def test_home_data(client):
     """Verifica que el mensaje sea el correcto"""
     response = client.get('/')
     data = response.get_json()
-    assert data["message"] == "¡Plataforma de DevOps actualizada automáticamente!"
+    assert data["message"] == "Rafael Cordova Nunez estuvo aquí :3"
